@@ -1,12 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>mount zion college</h1>
-</body>
-</html>
+
+    {% extends 'base.html' %}
+    {% block mycontent %}
+    <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-6 col-md-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus modi corporis fugit alias sed maiores, unde pariatur animi praesentium quidem delectus a tenetur quod nesciunt aperiam accusamus veniam ipsa ratione.
+    
+                </div>
+                <div class="col col-12 col-sm-6 col-md-8">
+                        <table class="table">
+                                <tr>
+                                    <td>student name</td>
+                                    <td><input type="text" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td>rollno</td>
+                                    <td><input type="text" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td>admn no</td>
+                                    <td><input type="text" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-success">submit</button></td>
+                                </tr>
+                                
+                            </table>
+    
+                </div>
+            </div>
+        </div>
+    
+
+    {% endblock %}
